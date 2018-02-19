@@ -1,11 +1,37 @@
-.top_space{
+.top_space {
 	margin-top:25px;
 }
 	
-.project{
+.project-image {
 	height:250px;
 }
 
-.panel{
+.panel {
 	min-height:500px;
+}
+
+.project-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.project {
+	flex: 0 0 49%;
+}
+
+.profile img {
+	width: 200px;
+}
+
+.handson img {
+	max-width: 100%;
+}
+
+.handson h3 {
+	margin-top: 40px;
+}
+
+.handson .diagram {
+	max-width: 500px;
 }
